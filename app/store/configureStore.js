@@ -1,5 +1,4 @@
 import {createStore, applyMiddleware, compose} from 'redux';
-import {apiMiddleware} from 'redux-api-middleware';
 import createSagaMiddleware from 'redux-saga'
 import createLogger from 'redux-logger';
 import {browserHistory} from 'react-router'
